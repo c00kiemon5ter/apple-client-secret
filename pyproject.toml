@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "apple-client-secret"
+version = "0.1.0"
+description = "Generate a client_secret for Apple Sign-in"
+authors = ["Your Name <you@example.com>"]
+license = "Apache2"
+
+[tool.poetry.scripts]
+generate-secret = "apple_client_secret.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyJWT = "^2.3.0"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.1.0"
+ipdb = "^0.13.9"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
