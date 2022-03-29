@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "apple-client-secret"
-version = "0.1.1"
+version = "0.1.2"
 description = "Generate a client_secret for Apple Sign-in"
 authors = ["Your Name <you@example.com>"]
 license = "Apache2"
