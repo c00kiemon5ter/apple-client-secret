@@ -12,6 +12,7 @@ generate-secret = "apple_client_secret.main:cli"
 python = "^3.9"
 PyJWT = {extras = ["crypto"], version = "^2.3.0"}
 typer = "^0.4.0"
+click = "<8.1.0"
 
 [tool.poetry.dev-dependencies]
 ipython = "^8.1.0"
